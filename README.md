@@ -18,6 +18,6 @@ If you experience problems with media that should direct play/stream to your cli
 
 `mkdir /mnt/usbstorage/media/transcoder`
 
-Then add /data/transcoder to Settings -> Server -> Transcoder -> Transcoder temporary directory in the Plex admin.
+Then add `/data/transcoder` to Settings -> Server -> Transcoder -> Transcoder temporary directory in the Plex admin.
 
 Why? Most of the time your SD card will be realtively small 16/32Gb and can quickly run out of space. According to [this forum post](https://forums.plex.tv/discussion/206281/there-was-a-problem-playing-this-item), the lack of available space can cause transcoder problems.
