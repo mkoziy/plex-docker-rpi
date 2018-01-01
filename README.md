@@ -11,6 +11,8 @@ Tested and works on Raspberry Pi 3.
 * /home/pi/plex/config - your local folder for a Plex config
 * /mnt/usbstorage/media/ - your local folder for movies/shows(in this example is mounted via usb)
 
+Then your server will be available here `http://{ip address of Pi or raspberrypi.local}:32400/web` for set up.
+
 # Playback failures
 If you experience problems with media that should direct play/stream to your client, and you mounted an external drive, try set the "Transcoder temporary directory" to a path on the mounted /data volume. For example, do:
 
