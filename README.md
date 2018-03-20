@@ -6,7 +6,7 @@ Tested and works on Raspberry Pi 3.
 
 # Usage
 
-`docker run -d -p 32400:32400 -v /home/pi/plex/config:/config -v /mnt/usbstorage/media/:/data --network="host" vamli/plex-server:latest`
+`docker run -d -p 32400:32400 -p 1900:1900 -p 32410:32410 -p 32412:32412 -p 32413:32413 -p 32414:32414 -p 32469:32469 -v /home/pi/plex/config:/config -v /mnt/usbstorage/media/:/data --network="host" vamli/plex-server:latest`
 
 * /home/pi/plex/config - your local folder for a Plex config
 * /mnt/usbstorage/media/ - your local folder for movies/shows(in this example is mounted via usb)
